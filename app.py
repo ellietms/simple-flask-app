@@ -32,9 +32,9 @@ def index():
         print("RESULT",result)
         mysql.connection.commit()
         cur.close()
-        return "WELL DONE ELLIEEEEEEE"
+        return "WELL DONE ELLIEEEEEEEE"
     return render_template('index.html')
 
 
 if __name__ == '__main__':
-     app.run(debug = True)
+     app.run(debug = True)   
