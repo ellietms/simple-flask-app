@@ -32,7 +32,7 @@ def index():
         print("RESULT",result)
         mysql.connection.commit()
         cur.close()
-        return "WELL DONE ELLIEEEEEEEE"
+        return "WELL DONE ELLIEEEEEEEEE"
     return render_template('index.html')
 
 
